@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+#root,
+#__next {
+	isolation: isolate;
+}
+
+@font-face {
+	font-family: "norse";
+	src: url("./Norse-Bold.otf");
+}
+
+.background {
+	background: no-repeat center/100% url(./trees.jpg);
+	height: 100vh;
+	width: 35%;
+}
+body {
+	display: flex;
+}
+
+.body {
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	font-family: "norse", Cambria, Cochin, Georgia, Times, "Times New Roman",
+		serif;
+	font-size: 3rem;
+	background: rgb(0, 0, 0, 0.5);
+	margin-top: 50%;
+}
+
+.logo {
+	height: 150px;
+	width: auto;
+}
+
+.credits {
+	color: white;
+	position: relative;
+	font-size: 1.1rem;
+	margin-top: 65%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
