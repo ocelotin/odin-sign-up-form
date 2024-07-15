@@ -52,6 +52,16 @@ body {
 	display: flex;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
 .body {
 	display: flex;
 	color: white;
@@ -65,8 +75,9 @@ body {
 }
 
 .logo {
-	height: 150px;
+	height: 170px;
 	width: auto;
+	padding: 15px;
 }
 
 .credits {
@@ -76,12 +87,27 @@ body {
 	margin-top: 65%;
 }
 
-a {
-	text-decoration: none;
-	color: white;
+.main {
+	display: flex;
+	width: 65vw;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	background-color: bisque;
 }
 
-a:visited {
-	text-decoration: none;
-	color: white;
+.text {
+	font-size: 1.5rem;
+	padding: 40px 70px;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	background-color: tomato;
+	width: 100%;
+	padding: 70px;
+}
+
+.submit {
+	margin: 40px 70px;
 }
